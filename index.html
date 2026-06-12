@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Netbox - local-first network monitoring" />
+    <title>Netbox</title>
+    <link rel="icon" type="image/png" href="/icons/black-32.png" data-netbox-icon="true" />
+    <script>
+      (function () {
+        var key = 'netbox-theme';
+        var stored = localStorage.getItem(key);
+        var preference = stored === 'light' || stored === 'dark' || stored === 'system' ? stored : 'dark';
+        var theme =
+          preference === 'system'
+            ? window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light'
+            : preference;
+        document.documentElement.dataset.theme = theme;
+        var favicon = document.querySelector('link[data-netbox-icon]');
+        if (favicon) {
+          favicon.href = theme === 'dark' ? '/icons/white-32.png' : '/icons/black-32.png';
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

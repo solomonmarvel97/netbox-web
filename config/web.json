@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "Netbox",
+    "id": "com.netbox.monitor",
+    "copyright": "Copyright © 2026 Netbox",
+    "author": "Netbox"
+  },
+  "devServer": {
+    "host": "127.0.0.1",
+    "port": 5176,
+    "previewPort": 4176
+  },
+  "links": {
+    "ossUrl": "https://github.com/solomonmarvel97/netbox",
+    "downloadUrl": "/download",
+    "purchaseUrl": "/roadmap#subscribe",
+    "proPriceLabel": "$1 / month",
+    "appUrl": "http://127.0.0.1:5177"
+  },
+  "creator": {
+    "name": "Marvelous Solomon",
+    "website": "https://solomonmarvel.com",
+    "github": "https://github.com/solomonmarvel97"
+  }
+}

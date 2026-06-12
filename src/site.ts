@@ -1,0 +1,14 @@
+export const siteAppName = __NETBOX_APP_NAME__;
+export const siteOssUrl = __NETBOX_OSS_URL__;
+export const siteDownloadUrl = __NETBOX_DOWNLOAD_URL__;
+export const sitePurchaseUrl = __NETBOX_PURCHASE_URL__;
+export const siteProPriceLabel = __NETBOX_PRO_PRICE_LABEL__;
+export const siteAppUrl = __NETBOX_APP_URL__;
+export const siteVersion = __NETBOX_APP_VERSION__;
+export const siteAppId = __NETBOX_APP_ID__;
+export const siteCopyright = __NETBOX_BUILD_COPYRIGHT__;
+export const siteBuilder = `${__NETBOX_BUILDER_NAME__} ${__NETBOX_BUILDER_VERSION__}`;
+export const siteAuthor = __NETBOX_BUILD_AUTHOR__;
+export const siteCreatorName = __NETBOX_CREATOR_NAME__;
+export const siteCreatorWebsite = __NETBOX_CREATOR_WEBSITE__;
+export const siteCreatorGithub = __NETBOX_CREATOR_GITHUB__;

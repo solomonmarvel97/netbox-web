@@ -1,0 +1,29 @@
+{
+  "productName": "Netbox",
+  "version": "1.0.0",
+  "generatedAt": "2026-06-12T13:18:13.537676+00:00",
+  "artifacts": [
+    {
+      "id": "netbox-1-0-0-arm64",
+      "platform": "macOS",
+      "arch": "Apple Silicon",
+      "format": "DMG",
+      "label": "macOS (Apple Silicon)",
+      "filename": "Netbox-1.0.0-arm64.dmg",
+      "href": "/downloads/Netbox-1.0.0-arm64.dmg",
+      "sizeBytes": 111266395,
+      "sort": "1"
+    },
+    {
+      "id": "netbox-1-0-0-arm64-mac",
+      "platform": "macOS",
+      "arch": "Apple Silicon",
+      "format": "ZIP",
+      "label": "macOS (Apple Silicon) ZIP",
+      "filename": "Netbox-1.0.0-arm64-mac.zip",
+      "href": "/downloads/Netbox-1.0.0-arm64-mac.zip",
+      "sizeBytes": 115892494,
+      "sort": "2"
+    }
+  ]
+}
